@@ -32,7 +32,7 @@ public class TestClass_FindingbrokenLinks {
 	//	System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Vaibhav\\\\Downloads\\\\chromedriver.exe");
 		driver= new ChromeDriver(op);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		//driver.get("https://rediff.com");
+	//Below line indicates that chrome browser is openeing with  google 
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("gainsight");
