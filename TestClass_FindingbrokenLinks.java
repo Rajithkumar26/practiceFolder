@@ -28,6 +28,7 @@ public class TestClass_FindingbrokenLinks {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions op = new ChromeOptions();
 		op.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"}); 
+		//Below line is old method to instantiate chrome
 	//	System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Vaibhav\\\\Downloads\\\\chromedriver.exe");
 		driver= new ChromeDriver(op);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
